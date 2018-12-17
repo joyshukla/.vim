@@ -1,0 +1,3 @@
+[submodule "pack/myplugins/start"]
+	path = pack/myplugins/start
+	url = https://github.com/majutsushi/tagbar.git
