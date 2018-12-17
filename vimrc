@@ -45,10 +45,16 @@ vnoremap <c-]> g<c-]>
 nnoremap g<c-]> <c-]>
 vnoremap g<c-]> <c-]>
 
-
 set encoding=utf-8
-
 
 " smart indent
 set smartindent
 set autoindent
+
+" search text using s command with shortcut ss
+nnoremap ss :call SearchText() <CR>
+function SearchText()
+    :silent ! s <cword>
+    :quit
+endf
+
