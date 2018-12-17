@@ -52,9 +52,5 @@ set smartindent
 set autoindent
 
 " search text using s command with shortcut ss
-nnoremap ss :call SearchText() <CR>
-function SearchText()
-    :silent ! s <cword>
-    :quit
-endf
-
+" | is for running multiple commands, have to escape using <bar> when using in map
+nnoremap ss :silent ! s <cword> <CR> <bar> :quit <CR>
