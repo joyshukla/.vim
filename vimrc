@@ -27,7 +27,7 @@ set ignorecase
 " show line numbers
 set number
 
-" show full file path on control-G wuth buffer info
+" show full file path on control-G with buffer info
 nnoremap <C-G> 2<C-G>
 
 " remove line numbers and signify disable, vcinfo
