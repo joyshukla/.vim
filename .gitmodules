@@ -7,3 +7,6 @@
 [submodule "pack/myplugins/start/vim-show-char"]
 	path = pack/myplugins/start/vim-show-char
 	url = https://github.com/chrisbra/vim-show-char
+[submodule "pack/myplugins/start/vim-obsession"]
+	path = pack/myplugins/start/vim-obsession
+	url = https://github.com/tpope/vim-obsession
