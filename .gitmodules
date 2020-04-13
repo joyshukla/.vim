@@ -10,3 +10,6 @@
 [submodule "pack/myplugins/start/vim-obsession"]
 	path = pack/myplugins/start/vim-obsession
 	url = https://github.com/tpope/vim-obsession
+[submodule "pack/myplugins/start/hexmode"]
+	path = pack/myplugins/start/hexmode
+	url = https://github.com/fidian/hexmode

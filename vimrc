@@ -54,3 +54,6 @@ set autoindent
 " search text using s command with shortcut ss
 " | is for running multiple commands, have to escape using <bar> when using in map
 nnoremap ss :silent ! s <cword> <CR> <bar> :quit <CR>
+
+
+let g:hexmode_patterns = '*.bin,*.exe,*.dat,*.o'
